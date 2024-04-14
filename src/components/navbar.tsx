@@ -4,7 +4,6 @@ import { Button } from "@/components/ui/button"
 import { JSX, SVGProps } from "react"
 import { ModeToggle } from "./DarkLight"
 import { SheetTrigger, SheetContent, Sheet } from "@/components/ui/sheet"
-import { NavigationMenuLink, NavigationMenuList, NavigationMenu } from "@/components/ui/navigation-menu"
 
 import { NavigationMenuDemo } from "./Dropdown"
 import { ComboboxDemo } from "./Search"

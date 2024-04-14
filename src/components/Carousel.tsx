@@ -8,7 +8,6 @@ import {
 } from "@/components/ui/carousel";
 
 import Autoplay from "embla-carousel-autoplay";
-import Box from "./Card";
 
 export function Hero() {
   return (
