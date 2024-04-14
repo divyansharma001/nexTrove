@@ -1,11 +1,15 @@
-import { Navbar } from "@/components/navbar";
-import { Button } from "@/components/ui/button";
-import Image from "next/image";
+
+import Box from "@/components/Card";
+import Hero from "@/components/Carousel";
+import Heading from "@/components/Heading";
+
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-    <Navbar/>
+    <main className="min-h-screen antialiased">
+     <Hero/>
+     <Heading/>
+     <Box/>
     </main>
   );
 }
