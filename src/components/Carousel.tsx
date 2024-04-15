@@ -25,10 +25,10 @@ export function Hero() {
             src="./cover1.png"
              />
           </CarouselItem>
-          <CarouselItem className="sm:basis-1/2 lg:basis-1/2" style={{height:'412px'}}>
+          {/* <CarouselItem className="sm:basis-1/2 lg:basis-1/2" style={{height:'412px'}}>
             <img src="./cover2.png" 
           />
-          </CarouselItem>
+          </CarouselItem> */}
           <CarouselItem className="sm:basis-1/2 lg:basis-1/2">
             <img src="./cover3.png" />
           </CarouselItem>
