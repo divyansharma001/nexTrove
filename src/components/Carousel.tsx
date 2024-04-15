@@ -25,7 +25,7 @@ export function Hero() {
             src="./cover1.png"
              />
           </CarouselItem>
-          <CarouselItem className="sm:basis-1/2 lg:basis-1/2" style={{height:'415px'}}>
+          <CarouselItem className="sm:basis-1/2 lg:basis-1/2" style={{height:'412px'}}>
             <img src="./cover2.png" 
           />
           </CarouselItem>
