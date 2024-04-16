@@ -51,7 +51,7 @@ export function Navbar() {
             <span className="sr-only">Acme Inc</span>
           </Link>
           <nav className="hidden md:flex gap-4">
-            <Link className="font-medium flex items-center text-sm transition-colors hover:underline" href="#">
+            <Link className="font-medium flex items-center text-sm transition-colors hover:underline" href="/">
               Home
             </Link>
             <Link className="font-medium flex items-center text-sm transition-colors hover:underline" href="#">
@@ -61,15 +61,17 @@ export function Navbar() {
               <NavigationMenuDemo/>
             </Link>
             <Link className="font-medium flex items-center text-sm transition-colors hover:underline" href="#">
-              Help
+              AI Help
             </Link>
           </nav>
           <div className="flex items-center gap-4">
           <ComboboxDemo/>
             <Button size="sm" variant="outline">
-              Sign in
+              <Link href="/login"> Login </Link>
             </Button>
-            <Button size="sm">Sign up</Button>
+            <Button size="sm">
+              <Link href="/signup">Sign up</Link>
+              </Button>
             <ModeToggle/>
             
           </div>

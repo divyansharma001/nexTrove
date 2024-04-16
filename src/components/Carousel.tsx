@@ -11,7 +11,7 @@ import Autoplay from "embla-carousel-autoplay";
 
 export function Hero() {
   return (
-    <div className="pt-60 lg:pt-20 ">
+    <div className="pt-28 lg:pt-20 ">
       <Carousel
         plugins={[
           Autoplay({

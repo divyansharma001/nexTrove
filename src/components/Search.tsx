@@ -27,7 +27,7 @@ export function ComboboxDemo() {
   const [value, setValue] = React.useState("")
 
   return (
-    <Command className="rounded-lg border shadow-md">
+    <Command className="rounded-lg border shadow-md ">
       <CommandInput placeholder="Search for Products..." />
     </Command>
   )
